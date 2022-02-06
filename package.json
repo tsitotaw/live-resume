@@ -17,7 +17,7 @@
     "build-locale:en": "ng build --prod --configuration=en",
     "build-locale:pt": "ng build --prod --configuration=pt",
     "build-locale": "npm run build-locale:en && npm run build-locale:pt",
-    "heroku-postbuild": "ng build — prod"
+    "heroku-postbuild": "ng build"
   },
   "private": true,
   "dependencies": {
